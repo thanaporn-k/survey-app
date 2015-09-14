@@ -10,6 +10,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "SurveyCardView.h"
 
+
 @interface ViewController ()
 
 
@@ -136,10 +137,10 @@
                 
                                 }
                             }];
-    }
         
-    [self.scrollView addSubview:surveyCardView];
-    [self.cardViews replaceObjectAtIndex:index withObject:surveyCardView];
+        [self.scrollView addSubview:surveyCardView];
+        [self.cardViews replaceObjectAtIndex:index withObject:surveyCardView];
+    }
     
 }
 
